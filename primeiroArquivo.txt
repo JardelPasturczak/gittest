@@ -1,0 +1,38 @@
+<html>
+    <head>   
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>LOG IN</title>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"> </script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"> </script> 
+    </head>
+    <body> 
+        <section class="container-fluid bg">
+            <section class="row justify-content-center ">
+                <section class="col-12 col-sm-6 col-md-3">
+                    <form class="form-container ">
+                        <div class="form-group">
+                            <label for="email1">Endereço de email</label>
+                            <input type="email" class="form-control" id="login_email1" aria-describedby="emailHelp" placeholder="Insira email">
+                            <small id="emailHelp" class="form-text text-muted">Seu email não será compartilhado com ninguém</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="login_senha" placeholder="Senha">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox1">
+                            <label class="form-check-label" for="login_mantenhame_conectado">Mantenha-me conectado</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="login_botao_confirmar">Log In</button>
+                        <a id="login_criar_usuario" href="cadastrocandidato.html">Cadastre-se</a>
+                    </form>
+                </section>                      
+            </section>    
+         </section>
+    </body>
+</html>
+
